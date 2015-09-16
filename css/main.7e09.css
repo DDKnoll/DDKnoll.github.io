@@ -1,0 +1,75 @@
+/** TYPOGRAPHY **/
+body {
+  color: #444444;
+  font-family: 'Old Standard TT', serif;
+  font-size: 20px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cabin', sans-serif;
+  color: #672518; }
+
+.site {
+  margin-left: 100px; }
+
+@media screen and (max-width: 600px) {
+  .site {
+    margin-left: 0; } }
+.main-content {
+  max-width: 540px;
+  position: relative;
+  margin: auto; }
+
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px; }
+  nav ul {
+    padding: 0; }
+    nav ul li {
+      list-style: none;
+      margin: 0; }
+      nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 8px 0;
+        text-decoration: none;
+        color: #d5300f; }
+
+@media screen and (max-width: 600px) {
+  nav {
+    opacity: 0; } }
+header {
+  max-width: 540px;
+  margin: 16px auto 16px;
+  border-bottom: 1px solid #f2f2f2; }
+  header h1 {
+    margin: 0;
+    padding-bottom: 4px;
+    font-size: 22px; }
+  header a {
+    text-decoration: none;
+    color: #d5300f; }
+
+header {
+  font-family: 'Cabin', sans-serif;
+  color: #222222; }
+
+.post img {
+  max-width: 90%;
+  margin: auto;
+  display: block; }
+
+.post-list .post-listing {
+  list-style: none;
+  padding: 16px;
+  box-sizing: border-box;
+  text-decoration: none; }
+  .post-list .post-listing img {
+    max-width: 100%; }
+  .post-list .post-listing h2 {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #d5300f; }
+  .post-list .post-listing .post-meta {
+    font-size: 14px; }
