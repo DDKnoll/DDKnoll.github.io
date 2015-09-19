@@ -11,14 +11,18 @@ h1, h2, h3, h4, h5 {
 .site {
   margin-left: 100px; }
 
-@media screen and (max-width: 600px) {
-  .site {
-    margin-left: 0; } }
 .main-content {
   max-width: 540px;
   position: relative;
-  margin: auto; }
+  margin-left: 32px; }
 
+@media screen and (max-width: 600px) {
+  .site, .main-content {
+    margin-left: 0; } }
+@media screen and (min-width: 1400px) {
+  .site {
+    max-width: 1000px;
+    margin: auto; } }
 nav {
   position: absolute;
   left: 0;
@@ -34,15 +38,14 @@ nav {
         text-align: center;
         padding: 8px 0;
         text-decoration: none;
-        color: #d5300f; }
+        color: #ab8763; }
 
 @media screen and (max-width: 600px) {
   nav {
     opacity: 0; } }
 header {
-  max-width: 540px;
-  margin: 16px auto 16px;
-  border-bottom: 1px solid #f2f2f2; }
+  margin: 16px 32px 16px;
+  border-bottom: 1px solid #ffeedd; }
   header h1 {
     margin: 0;
     padding-bottom: 4px;
@@ -51,14 +54,24 @@ header {
     text-decoration: none;
     color: #d5300f; }
 
-header {
+h1.title {
   font-family: 'Cabin', sans-serif;
   color: #222222; }
 
-.post img {
-  max-width: 90%;
-  margin: auto;
-  display: block; }
+.post {
+  padding: 16px; }
+  .post img {
+    max-width: 100%;
+    margin: auto;
+    display: block; }
+
+.rss-subscribe a {
+  color: #d5300f;
+  text-decoration: none; }
+.rss-subscribe img {
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: baseline; }
 
 .post-list .post-listing {
   list-style: none;
@@ -72,4 +85,14 @@ header {
     font-size: 16px;
     color: #d5300f; }
   .post-list .post-listing .post-meta {
-    font-size: 14px; }
+    font-size: 14px;
+    color: #ab8763; }
+
+footer {
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #ffeedd;
+  padding: 16px 0; }
+  footer a {
+    color: #ab8763;
+    margin: 0 8px; }

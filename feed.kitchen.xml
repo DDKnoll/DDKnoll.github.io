@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Open Saus - Kitchen</title>
+		<description>Posts categorized as 'Kitchen'</description>
+		<link></link>
+		<atom:link href="/feed.kitchen.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>My Essential 5 Hot Sauces</title>
+				
+					<description>&lt;p&gt;Hot sauce runs through my veins.  Also beer and coffee, but those are topics for another day.
+As my intoductory post on opensa.us, I’ll keep it simple and stick to my essentials for keeping my food saucy.  The first on the list is an outstanding homemade sauce, and the rest are store bought:&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 15 Sep 2015 13:33:53 -0700</pubDate>
+				<link>/kitchen/sauce/food/2015/09/15/essential-5-sauces/</link>
+				<guid isPermaLink="true">/kitchen/sauce/food/2015/09/15/essential-5-sauces/</guid>
+			</item>
+		
+	</channel>
+</rss>
